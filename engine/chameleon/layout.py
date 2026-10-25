@@ -163,8 +163,14 @@ def size_rigid(ctx: Ctx, u: Unit, s: float, max_w: float, max_h: float = math.in
             k = max(k, floor_for(ctx, u) / el["font_size"])
     if ctx.role(u) == "logo":
         k = max(k, ctx.logo_min_h / max(h0, 1e-6))
-    k = min(k, max_w / max(w0, 1e-6), max_h / max(h0, 1e-6))
-    return Block(w0 * k, h0 * k, lambda x, y: rigid_patch(ctx, u, x, y, k))
+    # The raw boxes, padding and all, must still fit the canvas, or the clamp
+    # in compose() shrinks the unit after the layout already counted on it.
+    F = _footprint(ctx, u)
+    k = min(k, max_w / max(w0, 1e-6), max_h / max(h0, 1e-6),
+            ctx.W / max(F[2] - F[0], 1e-6), ctx.H / max(F[3] - F[1], 1e-6))
+    b = Block(w0 * k, h0 * k, lambda x, y: rigid_patch(ctx, u, x, y, k))
+    b.k = k  # type: ignore[attr-defined]  # strip needs it to work out padding
+    return b
 
 
 def size_text(ctx: Ctx, u: Unit, s: float, max_w: float, widen: float = 1.0,
@@ -476,6 +482,87 @@ def place_corner(ctx: Ctx, u: Unit, k0: float, occupied: list[Rect], max_frac: f
             if not any(overlap_area(r, o) > 0 for o in occupied):
                 return patch
     return fallback
+
+
+def pads(ctx: Ctx, u: Unit, k: float) -> tuple[float, float, float, float]:
+    """How far the raw boxes reach past the visible rect at scale k, as
+    (left, top, right, bottom)."""
+    R, F = u.rect, _footprint(ctx, u)
+    return ((R[0] - F[0]) * k, (R[1] - F[1]) * k, (F[2] - R[2]) * k, (F[3] - R[3]) * k)
+
+
+def _footprint(ctx: Ctx, u: Unit) -> Rect:
+    """Union of a unit's raw and rotated boxes in source coordinates. This is
+    what has to stay on canvas, and it is usually bigger than the visible
+    rect because of transparent padding."""
+    d = ctx.src
+    return union([r for m in u.members for r in (box(d.els[m]), rotated_box(d.els[m]))])
+
+
+def tuck(ctx: Ctx, u: Unit, k_max: float, occupied: list[Rect],
+         k_min_frac: float = 0.1, pad: float = 2.0) -> tuple[Patch, Rect]:
+    """Find room for a unit the layout had no slot for.
+
+    Shrinks from k_max down to k_min_frac of it, and at each size scans the
+    canvas for a spot whose visible rect clears everything already placed and
+    whose raw boxes stay on canvas. Among free spots it takes the one nearest
+    to where the unit sat in the source, so fine print still ends up low and a
+    sticker still ends up in its corner. If nowhere is free it goes, at the
+    smallest size, to that spot anyway; the scorer will count the collision.
+    """
+    d = ctx.src
+    R = u.rect
+    F = _footprint(ctx, u)
+    w0, h0 = R[2] - R[0], R[3] - R[1]
+    # where the unit "wants" to be: its source centre in target proportions
+    want_x = (R[0] + R[2]) / 2 / d.width * ctx.W
+    want_y = (R[1] + R[3]) / 2 / d.height * ctx.H
+    edge = ctx.margin / 2
+
+    def fits_canvas(x: float, y: float, k: float) -> bool:
+        fx0, fy0 = x + (F[0] - R[0]) * k, y + (F[1] - R[1]) * k
+        fx1, fy1 = x + (F[2] - R[0]) * k, y + (F[3] - R[1]) * k
+        return fx0 >= 0 and fy0 >= 0 and fx1 <= ctx.W and fy1 <= ctx.H
+
+    k = k_max
+    last = None
+    while k >= k_max * k_min_frac:
+        w, h = w0 * k, h0 * k
+        if w <= ctx.W - 2 * edge and h <= ctx.H - 2 * edge:
+            xs = _scan(edge, ctx.W - edge - w, want_x - w / 2, 48)
+            ys = _scan(edge, ctx.H - edge - h, want_y - h / 2, 24)
+            best = None
+            for y in ys:
+                for x in xs:
+                    if not fits_canvas(x, y, k):
+                        continue
+                    r = (x - pad, y - pad, x + w + pad, y + h + pad)
+                    if any(overlap_area(r, o) > 0 for o in occupied):
+                        continue
+                    dist = (x + w / 2 - want_x) ** 2 + (y + h / 2 - want_y) ** 2
+                    if best is None or dist < best[0]:
+                        best = (dist, x, y)
+            if best is not None:
+                _, x, y = best
+                return rigid_patch(ctx, u, x, y, k), (x, y, x + w, y + h)
+            last = (k, w, h)
+        k *= 0.85
+    if last is None:
+        k, w, h = k_max * k_min_frac, w0 * k_max * k_min_frac, h0 * k_max * k_min_frac
+    else:
+        k, w, h = last
+    x = min(max(edge, want_x - w / 2), ctx.W - edge - w)
+    y = min(max(edge, want_y - h / 2), ctx.H - edge - h)
+    return rigid_patch(ctx, u, x, y, k), (x, y, x + w, y + h)
+
+
+def _scan(lo: float, hi: float, want: float, n: int) -> list[float]:
+    """n evenly spaced positions across [lo, hi] plus the wanted one, clamped."""
+    if hi <= lo:
+        return [lo]
+    pts = [lo + (hi - lo) * i / (n - 1) for i in range(n)]
+    pts.append(min(max(lo, want), hi))
+    return pts
 
 
 # ------------------------------------------------------------------ compose

@@ -237,6 +237,12 @@ tools/        harness: sweep, scramble, contact sheets (not shipped)
 
 ## 9. Milestones
 
+Status: 1-3 done. Sweep (3 samples x 26 formats + own targets): 81/81 pass
+the hard gates, mean 0.92. Band is in the candidate set but Split beats it
+on every very-wide target so far. Letterbox still wins three small, crowded
+cases (L3 at 300x250 and 320x100, L2 at 160x600); those wait on question 1
+below.
+
 1. Parse, measure, roles, score and harness: the scorer runs against the
    baseline output.
 2. Stack and Split plus fitting: L1 clean, and L2 readable at 1600x400.
