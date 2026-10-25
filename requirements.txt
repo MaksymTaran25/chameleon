@@ -1,2 +1,6 @@
-Pillow>=10.0
-git+https://github.com/CyberAgentAILab/cr-renderer
+# Pinned to the versions the engine was tested with. Text is measured with the
+# same skia build that renders it, so a different skia-python could move line
+# breaks; the renderer is pinned to a commit for the same reason.
+Pillow==13.0.0
+skia-python==144.1
+cr-renderer @ git+https://github.com/CyberAgentAILab/cr-renderer@a17e1fb9a732959dd6c21ae168d5ee09d74bd64f

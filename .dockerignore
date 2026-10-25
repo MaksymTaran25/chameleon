@@ -1,0 +1,12 @@
+# Only engine/, renderer/, brand_kit/ and the schema go into the image (see
+# Dockerfile). Keeping the rest out of the build context keeps builds fast.
+.git
+.venv
+runs
+output
+input
+corpus
+tune
+tools
+**/__pycache__
+*.pyc
