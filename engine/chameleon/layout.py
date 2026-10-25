@@ -218,8 +218,44 @@ class Row:
     src_rect: Rect
 
 
+def _spanning(units: list[Unit]) -> list[Unit]:
+    """Units that stand beside a column of others, like the hero in a
+    landscape layout: its height covers two or more units that sit next to
+    it and are stacked one above the other. Left in the row grouping, such a
+    unit would glue the whole column into one row."""
+    out = []
+    for u in units:
+        beside = [v for v in units if v is not u
+                  and (v.rect[2] <= u.rect[0] or v.rect[0] >= u.rect[2])  # horizontally apart
+                  and v.rect[1] >= u.rect[1] - 0.1 * (u.rect[3] - u.rect[1])
+                  and v.rect[3] <= u.rect[3] + 0.1 * (u.rect[3] - u.rect[1])]
+        stacked = any(a.rect[3] <= b.rect[1] or b.rect[3] <= a.rect[1]
+                      for i, a in enumerate(beside) for b in beside[i + 1:])
+        if len(beside) >= 2 and stacked:
+            out.append(u)
+    return out
+
+
 def source_rows(ctx: Ctx, units: list[Unit]) -> list[Row]:
-    """Group units into reading rows, top to bottom, as the source laid them out."""
+    """Group units into reading rows, top to bottom, as the source laid them out.
+
+    A unit standing beside a column (see _spanning) gets a row of its own:
+    above the rest if it was on the left, below if it was on the right, which
+    is the order a reader meets it in."""
+    spanning = _spanning(units)
+    rest = [u for u in units if u not in spanning]
+    rows = _band_rows(ctx, rest) if rest else []
+    for u in spanning:
+        r = Row([[u]], ["center"], u.rect)
+        others = union([v.rect for v in rest]) if rest else u.rect
+        if (u.rect[0] + u.rect[2]) / 2 < (others[0] + others[2]) / 2:
+            rows.insert(0, r)
+        else:
+            rows.append(r)
+    return rows
+
+
+def _band_rows(ctx: Ctx, units: list[Unit]) -> list[Row]:
     d = ctx.src
     order = sorted(units, key=lambda u: (u.rect[1] + u.rect[3]) / 2)
     bands: list[list[Unit]] = []
@@ -298,7 +334,8 @@ def size_row(ctx: Ctx, row: Row, s: float, region_w: float, widen: float = 1.0,
              align: Optional[str] = None, anchor: Optional[str] = None) -> Optional[Block]:
     """A row spans the region's width. Clusters go to their anchor; if two
     anchored clusters would collide we pack them side by side instead, and if
-    even that is too wide the row does not fit at this scale."""
+    even that is too wide we stack them, which is what a designer does when a
+    wide layout goes narrow."""
     anchors = [anchor or a for a in row.anchors]
     blocks = [size_cluster(ctx, c, s, region_w, widen, align, a) for c, a in zip(row.clusters, anchors)]
     gap = max(ctx.min_gap, 0.04 * region_w)
@@ -311,7 +348,7 @@ def size_row(ctx: Ctx, row: Row, s: float, region_w: float, widen: float = 1.0,
     if clash or any(x < -0.5 or x + b.w > region_w + 0.5 for x, b in zip(xs, blocks)):
         total = sum(b.w for b in blocks) + gap * (len(blocks) - 1)
         if total > region_w + 0.5:
-            return None
+            return _stacked_row(blocks, anchors, region_w, max(ctx.min_gap, 0.6 * gap))
         start = 0.0 if (anchor or "center") == "left" else (region_w - total) / 2
         xs, cur = [], start
         for b in blocks:
@@ -324,6 +361,20 @@ def size_row(ctx: Ctx, row: Row, s: float, region_w: float, widen: float = 1.0,
         patch: Patch = {}
         for bx, b in zip(xs, blocks):
             patch.update(b.place(x + bx, y + (h - b.h) / 2))
+        return patch
+
+    return Block(region_w, h, place)
+
+
+def _stacked_row(blocks: list[Block], anchors: list[str], region_w: float, gap: float) -> Block:
+    h = sum(b.h for b in blocks) + gap * (len(blocks) - 1)
+
+    def place(x: float, y: float) -> Patch:
+        patch: Patch = {}
+        for b, a in zip(blocks, anchors):
+            bx = 0.0 if a == "left" else (region_w - b.w if a == "right" else (region_w - b.w) / 2)
+            patch.update(b.place(x + bx, y))
+            y += b.h + gap
         return patch
 
     return Block(region_w, h, place)

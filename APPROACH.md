@@ -237,11 +237,14 @@ tools/        harness: sweep, scramble, contact sheets (not shipped)
 
 ## 9. Milestones
 
-Status: 1-3 done. Sweep (3 samples x 26 formats + own targets): 81/81 pass
-the hard gates, mean 0.92. Band is in the candidate set but Split beats it
-on every very-wide target so far. Letterbox still wins three small, crowded
-cases (L3 at 300x250 and 320x100, L2 at 160x600); those wait on question 1
-below.
+Status: 1-4 done. Sweep (3 samples x 26 formats + own targets): 81/81 pass
+the hard gates. Corpus (`python -m tools.corpus`, 48 seeded mutations of the
+samples, x 27 targets): 1296/1296 pass, no crashes. Soft-score weights are
+fitted to 40 judged pairs (`tools/pairs.py`, `tune/labels.json`,
+`tools/fit_weights.py`): agreement 32/40 with the hand-set weights, 37/40
+leave-one-out after. One judge (me) and 40 pairs is a thin signal; more labels,
+ideally from someone else, is the cheapest way to make the fit trustworthy.
+The remaining weak cases are small crowded targets, which wait on question 1.
 
 1. Parse, measure, roles, score and harness: the scorer runs against the
    baseline output.

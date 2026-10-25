@@ -1,0 +1,1442 @@
+[
+  {
+    "idx": 0,
+    "task": "corpus_008",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_008.json",
+    "format": "Mobile Banner",
+    "left": {
+      "name": "strip/headline/badges-tuck/hero-right",
+      "total": 0.6908563171600184,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.037992751112790796,
+        "contrast": 0.812940962172344,
+        "hierarchy": 0.4956140350877193,
+        "order": 0.7857142857142857,
+        "fill": 0.7246950481712248,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair000_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.664063609689234,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.0040030811707399,
+        "contrast": 0.8044882278719844,
+        "hierarchy": 0.75,
+        "order": 1.0,
+        "fill": 0.4725820413936729,
+        "alignment": 1.0,
+        "text_fit": 0.7033155513492096
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair000_R.png"
+    }
+  },
+  {
+    "idx": 1,
+    "task": "chameleon_sample_level1_warmup",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/input/chameleon_sample_level1_warmup.json",
+    "format": "Instagram Story",
+    "left": {
+      "name": "letterbox",
+      "total": 0.9345249994844927,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.9379099201259513,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.4383851146559999,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair001_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.97500325107982,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.7500325107981997,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair001_R.png"
+    }
+  },
+  {
+    "idx": 2,
+    "task": "corpus_031",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_031.json",
+    "format": "A4 Poster",
+    "left": {
+      "name": "letterbox",
+      "total": 0.8598066500114132,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.7513213049024967,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.4752509604804719,
+        "alignment": 0.8333333333333334,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair002_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.8614232907612682,
+      "parts": {
+        "collisions": 0.7090216904547959,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8048390849803593,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair002_R.png"
+    }
+  },
+  {
+    "idx": 3,
+    "task": "corpus_041",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_041.json",
+    "format": "Presentation 16x9",
+    "left": {
+      "name": "split/left/0.5/left",
+      "total": 0.9623730781264807,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9202245181028065,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair003_L.png"
+    },
+    "right": {
+      "name": "stack/compact",
+      "total": 0.9567993479960968,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8644872167989681,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair003_R.png"
+    }
+  },
+  {
+    "idx": 4,
+    "task": "corpus_006",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_006.json",
+    "format": "Leaderboard",
+    "left": {
+      "name": "split/left/0.3/center",
+      "total": 0.7835192384147582,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.26309552634613165,
+        "contrast": 0.7616501826891027,
+        "hierarchy": 0.9166666666666667,
+        "order": 1.0,
+        "fill": 0.8331927240883318,
+        "alignment": 0.8333333333333334,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair004_L.png"
+    },
+    "right": {
+      "name": "strip/headline+subhead/badges-tuck/hero-right",
+      "total": 0.8174558328182291,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.6903248587570622,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.375,
+        "order": 0.8,
+        "fill": 0.8154023475061667,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair004_R.png"
+    }
+  },
+  {
+    "idx": 5,
+    "task": "corpus_024",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_024.json",
+    "format": "Website Banner",
+    "left": {
+      "name": "letterbox",
+      "total": 0.9229971536924079,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.22997153692407823,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair005_L.png"
+    },
+    "right": {
+      "name": "strip/headline/badges-tuck/hero-left",
+      "total": 0.9062367350751912,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.5623673507519126,
+        "alignment": 0.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair005_R.png"
+    }
+  },
+  {
+    "idx": 6,
+    "task": "chameleon_sample_level2_core",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/input/chameleon_sample_level2_core.json",
+    "format": "Instagram Post",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.9597915468723185,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8944092055611845,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair006_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.9497186814960754,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8770138851320888,
+        "alignment": 0.8333333333333334,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair006_R.png"
+    }
+  },
+  {
+    "idx": 7,
+    "task": "corpus_017",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_017.json",
+    "format": "Wide Skyscraper",
+    "left": {
+      "name": "stack/proportional",
+      "total": 0.9111717760984056,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.746822033898305,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.9166666666666667,
+        "order": 1.0,
+        "fill": 0.9979007633587786,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair007_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.7007461876988462,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.0294436757753949,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.9583333333333333,
+        "order": 1.0,
+        "fill": 0.2867349289423393,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair007_R.png"
+    }
+  },
+  {
+    "idx": 8,
+    "task": "corpus_037",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_037.json",
+    "format": "Facebook Post",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.9820570358955629,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9872370256222958,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair008_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.9368135510838194,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9098021775048599,
+        "alignment": 0.6666666666666666,
+        "text_fit": 0.625
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair008_R.png"
+    }
+  },
+  {
+    "idx": 9,
+    "task": "corpus_001",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_001.json",
+    "format": "Instagram Post",
+    "left": {
+      "name": "letterbox",
+      "total": 0.9331088593564891,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.9791407202704672,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.36237751315919015,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair009_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.952272421085761,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.5227242108576103,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair009_R.png"
+    }
+  },
+  {
+    "idx": 10,
+    "task": "corpus_034",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_034.json",
+    "format": "Instagram Post",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.9361772642716751,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.9489483310470964,
+        "contrast": 0.6932553804236911,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9239929099870217,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair010_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.8945039836397745,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.7436161232457529,
+        "contrast": 0.6938950076697084,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9169650784016762,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair010_R.png"
+    }
+  },
+  {
+    "idx": 11,
+    "task": "corpus_024",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_024.json",
+    "format": "Large Rectangle",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.9072647846810551,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.5726478468105513,
+        "alignment": 0.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair011_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.9374000296129589,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.374000296129589,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair011_R.png"
+    }
+  },
+  {
+    "idx": 12,
+    "task": "corpus_027",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_027.json",
+    "format": "Wide Skyscraper",
+    "left": {
+      "name": "letterbox",
+      "total": 0.7245352676596422,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.04014500537056928,
+        "contrast": 0.8975532704373869,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.3187327601992015,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair012_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.9590911978020306,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.7575786446869722,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair012_R.png"
+    }
+  },
+  {
+    "idx": 13,
+    "task": "corpus_014",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_014.json",
+    "format": "A4 Poster",
+    "left": {
+      "name": "letterbox",
+      "total": 0.9537727747058231,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9127277470582301,
+        "alignment": 1.0,
+        "text_fit": 0.625
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair013_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.993343839603838,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9334383960383792,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair013_R.png"
+    }
+  },
+  {
+    "idx": 14,
+    "task": "corpus_031",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_031.json",
+    "format": "Banner",
+    "left": {
+      "name": "letterbox",
+      "total": 0.7424351581566677,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.03895595526346131,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.9583333333333333,
+        "order": 1.0,
+        "fill": 0.684600074544421,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair014_L.png"
+    },
+    "right": {
+      "name": "strip/headline/badges-tuck/hero-left",
+      "total": 0.7568348216875043,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.4353813559322034,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.4166666666666667,
+        "order": 0.6,
+        "fill": 0.7774125751819696,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair014_R.png"
+    }
+  },
+  {
+    "idx": 15,
+    "task": "corpus_014",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_014.json",
+    "format": "Large Rectangle",
+    "left": {
+      "name": "letterbox",
+      "total": 0.7905165846558105,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.31632653061224486,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.6475127853336151,
+        "alignment": 1.0,
+        "text_fit": 0.625
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair015_L.png"
+    },
+    "right": {
+      "name": "stack/compact",
+      "total": 0.9997066299644322,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9970662996443215,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair015_R.png"
+    }
+  },
+  {
+    "idx": 16,
+    "task": "corpus_029",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_029.json",
+    "format": "YouTube Thumbnail",
+    "left": {
+      "name": "letterbox",
+      "total": 0.9380004424195983,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.7367609526761081,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8748629951818215,
+        "alignment": 0.8,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair016_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.9330429613721086,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8056922213507022,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8218912816950329,
+        "alignment": 0.6,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair016_R.png"
+    }
+  },
+  {
+    "idx": 17,
+    "task": "corpus_026",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_026.json",
+    "format": "Banner",
+    "left": {
+      "name": "stack/proportional",
+      "total": 0.9506690432933456,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.9176119671440786,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.6302724822173377,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair017_L.png"
+    },
+    "right": {
+      "name": "strip/headline/badges-tuck/hero-left",
+      "total": 0.9130175761010623,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.9984968786446826,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.6324304430435987,
+        "alignment": 0.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair017_R.png"
+    }
+  },
+  {
+    "idx": 18,
+    "task": "corpus_006",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_006.json",
+    "format": "X Post",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.9580837349924947,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.877331086762947,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair018_L.png"
+    },
+    "right": {
+      "name": "split/left/0.5/left",
+      "total": 0.9505556757986869,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8853838281582038,
+        "alignment": 0.8333333333333334,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair018_R.png"
+    }
+  },
+  {
+    "idx": 19,
+    "task": "corpus_046",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_046.json",
+    "format": "YouTube Thumbnail",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.9684229671149471,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.9969135802469136,
+        "contrast": 0.8568834358329431,
+        "hierarchy": 1.0,
+        "order": 0.8333333333333334,
+        "fill": 0.988410690239563,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair019_L.png"
+    },
+    "right": {
+      "name": "split/right/0.4/center",
+      "total": 0.9695927283240607,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8605681741269616,
+        "hierarchy": 1.0,
+        "order": 0.8333333333333334,
+        "fill": 0.9884083553834987,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair019_R.png"
+    }
+  },
+  {
+    "idx": 20,
+    "task": "corpus_021",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_021.json",
+    "format": "Wide Skyscraper",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.8461730323969152,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.523638888888889,
+        "contrast": 0.8272283410030417,
+        "hierarchy": 0.8125,
+        "order": 0.9722222222222222,
+        "fill": 0.9249989235756995,
+        "alignment": 0.9,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair020_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.7112205743141433,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.012110142668178383,
+        "contrast": 0.8252894257454674,
+        "hierarchy": 0.9270833333333333,
+        "order": 1.0,
+        "fill": 0.4229679858535419,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair020_R.png"
+    }
+  },
+  {
+    "idx": 21,
+    "task": "corpus_032",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_032.json",
+    "format": "Website Banner",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.967365858017927,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8247736403149574,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9364981197068335,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair021_L.png"
+    },
+    "right": {
+      "name": "strip/headline+subhead/badges-tuck/hero-left",
+      "total": 0.9162761141194768,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8261712696082474,
+        "hierarchy": 0.6354166666666666,
+        "order": 0.8055555555555556,
+        "fill": 0.885309792337954,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair021_R.png"
+    }
+  },
+  {
+    "idx": 22,
+    "task": "corpus_042",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_042.json",
+    "format": "X Header",
+    "left": {
+      "name": "split/right/0.3/center",
+      "total": 0.9331021343298315,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8063765890551328,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.788123126382282,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair022_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.9409705131345291,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8063765890551328,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.7834735810959251,
+        "alignment": 0.8333333333333334,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair022_R.png"
+    }
+  },
+  {
+    "idx": 23,
+    "task": "corpus_037",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_037.json",
+    "format": "Leaderboard",
+    "left": {
+      "name": "stack/proportional",
+      "total": 0.9799704503146878,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9663711698135447,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair023_L.png"
+    },
+    "right": {
+      "name": "strip/headline+subhead/badges-tuck/hero-left",
+      "total": 0.9719041494723096,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.9771685212562328,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9199553795054141,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair023_R.png"
+    }
+  },
+  {
+    "idx": 24,
+    "task": "corpus_032",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_032.json",
+    "format": "Presentation 16x9",
+    "left": {
+      "name": "stack/proportional",
+      "total": 0.9725008918141146,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.824359758977566,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9884692796747958,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair024_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.914609799534006,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.8163096619886744,
+        "contrast": 0.8272283410030417,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.7726361598581472,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair024_R.png"
+    }
+  },
+  {
+    "idx": 25,
+    "task": "corpus_002",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_002.json",
+    "format": "Leaderboard",
+    "left": {
+      "name": "strip/headline/badges-tuck/hero-left",
+      "total": 0.9626906994971423,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.9106723947602147,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.927565069497768,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair025_L.png"
+    },
+    "right": {
+      "name": "stack/compact",
+      "total": 0.9650158675492515,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.9864266215366311,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8371854098542353,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair025_R.png"
+    }
+  },
+  {
+    "idx": 26,
+    "task": "corpus_025",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_025.json",
+    "format": "Website Banner",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.9997638400223973,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9976384002239727,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair026_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.9291632641275733,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.984448056001653,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.5149605572732532,
+        "alignment": 1.0,
+        "text_fit": 0.8
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair026_R.png"
+    }
+  },
+  {
+    "idx": 27,
+    "task": "corpus_023",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_023.json",
+    "format": "Banner",
+    "left": {
+      "name": "strip/headline/badges-tuck/hero-left",
+      "total": 0.7781192661010284,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.27958796296296295,
+        "contrast": 0.8272283410030417,
+        "hierarchy": 0.8522727272727273,
+        "order": 0.4642857142857143,
+        "fill": 0.9467586391642112,
+        "alignment": 0.9,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair027_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.739347570062207,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.008637920445956161,
+        "contrast": 0.8252894257454674,
+        "hierarchy": 0.8295454545454546,
+        "order": 1.0,
+        "fill": 0.8587202665665011,
+        "alignment": 0.9,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair027_R.png"
+    }
+  },
+  {
+    "idx": 28,
+    "task": "chameleon_sample_level2_core",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/input/chameleon_sample_level2_core.json",
+    "format": "Large Rectangle",
+    "left": {
+      "name": "stack/compact",
+      "total": 0.9593634409427637,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.9583333333333333,
+        "order": 1.0,
+        "fill": 0.9317948129323034,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair028_L.png"
+    },
+    "right": {
+      "name": "split/right/0.5/left",
+      "total": 0.8322270629803814,
+      "parts": {
+        "collisions": 0.7995677701931035,
+        "readability": 0.746822033898305,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.9166666666666667,
+        "order": 1.0,
+        "fill": 0.8762008733624453,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair028_R.png"
+    }
+  },
+  {
+    "idx": 29,
+    "task": "corpus_005",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_005.json",
+    "format": "Email Header",
+    "left": {
+      "name": "stack/proportional",
+      "total": 0.9509655130475916,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.9583333333333333,
+        "order": 1.0,
+        "fill": 0.8478155339805825,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair029_L.png"
+    },
+    "right": {
+      "name": "strip/headline+subhead+badge/badges-tuck/hero-left",
+      "total": 0.8541582457338124,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.7807203389830508,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.4166666666666667,
+        "order": 0.9,
+        "fill": 0.9099688495433558,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair029_R.png"
+    }
+  },
+  {
+    "idx": 30,
+    "task": "corpus_006",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_006.json",
+    "format": "A4 Poster",
+    "left": {
+      "name": "letterbox",
+      "total": 0.9310513371067276,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.746130397665613,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8947076050773303,
+        "alignment": 1.0,
+        "text_fit": 0.7966101694915254
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair030_L.png"
+    },
+    "right": {
+      "name": "stack/compact",
+      "total": 0.9652403773538158,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9488975103761585,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair030_R.png"
+    }
+  },
+  {
+    "idx": 31,
+    "task": "corpus_025",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_025.json",
+    "format": "Pinterest Pin",
+    "left": {
+      "name": "letterbox",
+      "total": 0.9301492657828296,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.5014926578282956,
+        "alignment": 1.0,
+        "text_fit": 0.8
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair031_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.9852331825763306,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8523318257633055,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair031_R.png"
+    }
+  },
+  {
+    "idx": 32,
+    "task": "corpus_001",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_001.json",
+    "format": "Leaderboard",
+    "left": {
+      "name": "strip/headline/badges-tuck/hero-left",
+      "total": 0.8908219274506477,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.40821927450647694,
+        "alignment": 0.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair032_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.9323839623547926,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.9091777921926628,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.4600729352589311,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair032_R.png"
+    }
+  },
+  {
+    "idx": 33,
+    "task": "corpus_045",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_045.json",
+    "format": "Large Mobile Banner",
+    "left": {
+      "name": "strip/headline/badges-tuck/hero-right",
+      "total": 0.7529472119823176,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.11718553949357519,
+        "contrast": 0.8276195912758462,
+        "hierarchy": 0.8541666666666667,
+        "order": 0.75,
+        "fill": 0.8245049872555892,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair033_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.6938286846457001,
+      "parts": {
+        "collisions": 0.7876239637422374,
+        "readability": 0.017411729969765685,
+        "contrast": 0.6955520097142316,
+        "hierarchy": 0.9479166666666667,
+        "order": 0.9285714285714286,
+        "fill": 0.9788730816381475,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair033_R.png"
+    }
+  },
+  {
+    "idx": 34,
+    "task": "corpus_025",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_025.json",
+    "format": "Medium Rectangle",
+    "left": {
+      "name": "letterbox",
+      "total": 0.8228440475705785,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.40114795918367346,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.6261445573384367,
+        "alignment": 1.0,
+        "text_fit": 0.8
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair034_L.png"
+    },
+    "right": {
+      "name": "stack/proportional",
+      "total": 0.9875832940466617,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 1.0,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8758329404666163,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair034_R.png"
+    }
+  },
+  {
+    "idx": 35,
+    "task": "corpus_032",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_032.json",
+    "format": "LinkedIn Post",
+    "left": {
+      "name": "stack/proportional",
+      "total": 0.9721010138469084,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8261899375746972,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9817252321070382,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair035_L.png"
+    },
+    "right": {
+      "name": "letterbox",
+      "total": 0.818577492853608,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.35835999800637963,
+        "contrast": 0.8270132388837974,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.7285350741976253,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair035_R.png"
+    }
+  },
+  {
+    "idx": 36,
+    "task": "chameleon_sample_level2_core",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/input/chameleon_sample_level2_core.json",
+    "format": "X Header",
+    "left": {
+      "name": "split/left/0.4/left",
+      "total": 0.9594122421645477,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9739494918168115,
+        "alignment": 0.8333333333333334,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair036_L.png"
+    },
+    "right": {
+      "name": "stack/compact",
+      "total": 0.9557306714091067,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.8538004509290671,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair036_R.png"
+    }
+  },
+  {
+    "idx": 37,
+    "task": "corpus_035",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_035.json",
+    "format": "LinkedIn Post",
+    "left": {
+      "name": "letterbox",
+      "total": 0.8733790632625485,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.4997949955896437,
+        "contrast": 0.8228153216815822,
+        "hierarchy": 1.0,
+        "order": 1.0,
+        "fill": 0.9999776589238241,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair037_L.png"
+    },
+    "right": {
+      "name": "split/right/0.4/left",
+      "total": 0.9630258847353385,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.9820718519713197,
+        "contrast": 0.8252870864075701,
+        "hierarchy": 1.0,
+        "order": 0.8928571428571429,
+        "fill": 0.9817559423708186,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair037_R.png"
+    }
+  },
+  {
+    "idx": 38,
+    "task": "corpus_022",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_022.json",
+    "format": "Mobile Banner",
+    "left": {
+      "name": "letterbox",
+      "total": 0.6020158512626006,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.004102773053665912,
+        "contrast": 0.6910246280685253,
+        "hierarchy": 0.75,
+        "order": 1.0,
+        "fill": 0.27808981185078135,
+        "alignment": 1.0,
+        "text_fit": 0.44732621256510424
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair038_L.png"
+    },
+    "right": {
+      "name": "strip/headline/badges-tuck/hero-right",
+      "total": 0.6796631082879777,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 0.024943476001511717,
+        "contrast": 0.691956092412134,
+        "hierarchy": 0.5952380952380952,
+        "order": 0.7777777777777778,
+        "fill": 0.7246830081315697,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair038_R.png"
+    }
+  },
+  {
+    "idx": 39,
+    "task": "corpus_017",
+    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_017.json",
+    "format": "Large Rectangle",
+    "left": {
+      "name": "stack/proportional",
+      "total": 0.965648245363819,
+      "parts": {
+        "collisions": 1.0,
+        "readability": 1.0,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.9583333333333333,
+        "order": 1.0,
+        "fill": 0.9946428571428572,
+        "alignment": 1.0,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair039_L.png"
+    },
+    "right": {
+      "name": "split/right/0.5/left",
+      "total": 0.8231755135096213,
+      "parts": {
+        "collisions": 0.7633615723100635,
+        "readability": 0.746822033898305,
+        "contrast": 0.8023375087746663,
+        "hierarchy": 0.9166666666666667,
+        "order": 1.0,
+        "fill": 0.8762008733624453,
+        "alignment": 0.6666666666666666,
+        "text_fit": 1.0
+      },
+      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair039_R.png"
+    }
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "task_id": "corpus_039",
+  "difficulty": "synthetic",
+  "notes": "base level1_warmup_wide; missing asset on logo",
+  "source": {
+    "canvas": {
+      "width": 1500,
+      "height": 500
+    },
+    "elements": [
+      {
+        "id": "ezc32bd",
+        "type": "image",
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1500.0,
+        "height": 500.0,
+        "z_index": 0,
+        "asset_id": "solstice_bg_gradient.png",
+        "fit": "cover"
+      },
+      {
+        "id": "e7k1ja0",
+        "type": "image",
+        "x": 602.45,
+        "y": 34.83,
+        "width": 295.09,
+        "height": 92.22,
+        "z_index": 2,
+        "asset_id": "missing_nizxgu.png",
+        "fit": "contain"
+      },
+      {
+        "id": "ew3096z",
+        "type": "text",
+        "x": 159.82,
+        "y": 211.07,
+        "width": 1180.36,
+        "height": 72.0,
+        "z_index": 2,
+        "content": "Chase the Light",
+        "font_family": "Solstice Serif",
+        "font_size": 55,
+        "font_weight": "bold",
+        "color": "rgba(255,255,255,1)",
+        "text_align": "center"
+      },
+      {
+        "id": "ehowtov",
+        "type": "text",
+        "x": 159.82,
+        "y": 364.03,
+        "width": 1180.36,
+        "height": 39.0,
+        "z_index": 2,
+        "content": "Shop the Summer Line",
+        "font_family": "Solstice Sans",
+        "font_size": 27,
+        "font_weight": "bold",
+        "color": "rgba(232,106,58,1)",
+        "text_align": "center"
+      }
+    ]
+  },
+  "target_canvas": {
+    "width": 468,
+    "height": 60
+  }
+}

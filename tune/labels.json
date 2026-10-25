@@ -1,0 +1,11 @@
+{
+  "judge": "visual review against the brief's rubric (collisions, readability, brand, intentional look); pick = the one a designer would ship",
+  "pairs_file": "tune/pairs/pairs.json",
+  "labels": {
+    "0": "L", "1": "R", "2": "R", "3": "L", "4": "R", "5": "R", "6": "L", "7": "L",
+    "8": "L", "9": "R", "10": "L", "11": "L", "12": "R", "13": "R", "14": "R", "15": "R",
+    "16": "R", "17": "L", "18": "R", "19": "R", "20": "L", "21": "R", "22": "L", "23": "R",
+    "24": "L", "25": "L", "26": "L", "27": "L", "28": "L", "29": "L", "30": "R", "31": "R",
+    "32": "R", "33": "L", "34": "R", "35": "L", "36": "L", "37": "R", "38": "R", "39": "L"
+  }
+}

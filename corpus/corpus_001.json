@@ -1,0 +1,58 @@
+{
+  "task_id": "corpus_001",
+  "difficulty": "synthetic",
+  "notes": "base level1_warmup_landscape; dropped logo",
+  "source": {
+    "canvas": {
+      "width": 1200,
+      "height": 628
+    },
+    "elements": [
+      {
+        "id": "ed959rk",
+        "type": "image",
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1200.0,
+        "height": 628.0,
+        "z_index": 0,
+        "asset_id": "solstice_bg_gradient.png",
+        "fit": "cover"
+      },
+      {
+        "id": "ekel7h2",
+        "type": "text",
+        "x": 31.4,
+        "y": 262.68,
+        "width": 1137.2,
+        "height": 72.0,
+        "z_index": 2,
+        "content": "Chase the Light",
+        "font_family": "Solstice Serif",
+        "font_size": 55,
+        "font_weight": "bold",
+        "color": "rgba(255,255,255,1)",
+        "text_align": "center"
+      },
+      {
+        "id": "etkd2li",
+        "type": "text",
+        "x": 31.4,
+        "y": 431.69,
+        "width": 1137.2,
+        "height": 39.0,
+        "z_index": 2,
+        "content": "Shop the Summer Line",
+        "font_family": "Solstice Sans",
+        "font_size": 27,
+        "font_weight": "bold",
+        "color": "rgba(232,106,58,1)",
+        "text_align": "center"
+      }
+    ]
+  },
+  "target_canvas": {
+    "width": 1600,
+    "height": 900
+  }
+}

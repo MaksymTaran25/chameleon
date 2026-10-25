@@ -42,15 +42,18 @@ FROZEN = {
 ASPECT_TOLERANCE = 0.05
 BOUNDS_TOL = 0.5
 
+# Fitted to judged pairs by tools/fit_weights.py (tune/labels.json, 40 pairs:
+# 32/40 agreement with the hand-set weights, 37/40 leave-one-out after).
 WEIGHTS = {
-    "collisions": 0.25,
-    "readability": 0.20,
-    "contrast": 0.15,
-    "hierarchy": 0.10,
-    "order": 0.05,
-    "fill": 0.10,
-    "alignment": 0.05,
-    "text_fit": 0.10,
+    "collisions": 0.280,
+    "readability": 0.194,
+    "contrast": 0.143,
+    "hierarchy": 0.089,
+    "order": 0.023,
+    "fill": 0.124,
+    "alignment": 0.030,
+    "text_fit": 0.084,
+    "presence": 0.033,
 }
 
 # Desired type size per role as (absolute floor px, fraction of the short side).
@@ -306,7 +309,25 @@ def soft_score(source: Design, out: Design, roles_src: Optional[dict[str, RoleIn
             aligned += 1
     alignment = aligned / len(rects) if rects else 1.0
 
+    # presence: each content unit keeps the share of the canvas it had in the
+    # source. Readability caps out once type clears its desired size, so
+    # without this a small safe layout ties with one that actually uses the
+    # space, and the judged pairs (tune/labels.json) say people prefer the latter.
+    pres_num = pres_den = 0.0
+    src_area = source.width * source.height
+    out_area = out.width * out.height
+    for u in content:
+        info = roles_src[u.uid]
+        share_src = area(u.rect) / src_area
+        if share_src <= 0:
+            continue
+        share_out = area(intersect(rect_out(u), out.canvas_rect)) / out_area
+        pres_num += info.importance * min(1.0, share_out / share_src)
+        pres_den += info.importance
+    presence = pres_num / pres_den if pres_den else 1.0
+
     return {
+        "presence": presence,
         "collisions": collisions, "readability": readability, "contrast": contrast,
         "hierarchy": hierarchy, "order": order, "fill": fill, "alignment": alignment,
         "text_fit": text_fit,

@@ -1,0 +1,69 @@
+{
+  "task_id": "corpus_038",
+  "difficulty": "synthetic",
+  "notes": "base level1_warmup_story; subhead 3 words",
+  "source": {
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "elements": [
+      {
+        "id": "eri17vg",
+        "type": "image",
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1080.0,
+        "height": 1920.0,
+        "z_index": 0,
+        "asset_id": "solstice_bg_gradient.png",
+        "fit": "cover"
+      },
+      {
+        "id": "em15mdl",
+        "type": "image",
+        "x": 294.67,
+        "y": 142.89,
+        "width": 490.67,
+        "height": 153.33,
+        "z_index": 2,
+        "asset_id": "solstice_logo_lockup.png",
+        "fit": "contain"
+      },
+      {
+        "id": "e6d0u70",
+        "type": "text",
+        "x": 54.0,
+        "y": 779.53,
+        "width": 972.0,
+        "height": 119.0,
+        "z_index": 2,
+        "content": "Chase the Light",
+        "font_family": "Solstice Serif",
+        "font_size": 92,
+        "font_weight": "bold",
+        "color": "rgba(255,255,255,1)",
+        "text_align": "center"
+      },
+      {
+        "id": "erw7rmw",
+        "type": "text",
+        "x": 54.0,
+        "y": 1180.48,
+        "width": 972.0,
+        "height": 66.0,
+        "z_index": 2,
+        "content": "Wild batch natural.",
+        "font_family": "Solstice Sans",
+        "font_size": 46,
+        "font_weight": "bold",
+        "color": "rgba(232,106,58,1)",
+        "text_align": "center"
+      }
+    ]
+  },
+  "target_canvas": {
+    "width": 1500,
+    "height": 500
+  }
+}

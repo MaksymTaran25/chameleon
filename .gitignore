@@ -23,3 +23,6 @@ output/*
 
 # Harness runs
 /runs/
+
+# Judging renders are regenerable with tools/pairs.py; the montages stay as the record of what was labelled
+/tune/pairs/pair*.png

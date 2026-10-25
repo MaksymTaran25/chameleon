@@ -125,11 +125,15 @@ def _font(size: int):
 
 def contact_sheet(stem: str, source_png: Optional[str], rows: list[dict[str, Any]], path: Path) -> None:
     cells = [("SOURCE", None, source_png)] + [(r["format"], r, r.get("png")) for r in rows]
+    draw_cells(stem, cells, path)
+
+
+def draw_cells(title: str, cells: list[tuple[str, Optional[dict], Optional[str]]], path: Path) -> None:
     cols = 6
     n_rows = (len(cells) + cols - 1) // cols
     sheet = Image.new("RGB", (cols * CELL, n_rows * (CELL + LABEL_H) + 40), (245, 242, 236))
     draw = ImageDraw.Draw(sheet)
-    draw.text((10, 10), stem, fill=(30, 30, 30), font=_font(20))
+    draw.text((10, 10), title, fill=(30, 30, 30), font=_font(20))
     small, bold = _font(13), _font(15)
     for i, (name, row, png) in enumerate(cells):
         x, y = (i % cols) * CELL, 40 + (i // cols) * (CELL + LABEL_H)
@@ -159,6 +163,11 @@ def main(argv: Optional[list[str]] = None) -> int:
     ap.add_argument("--formats", nargs="*", default=None, help="catalogue names (default: all)")
     ap.add_argument("--engine", default="engine.resize:resize")
     ap.add_argument("--no-render", action="store_true")
+    ap.add_argument("--render-worst", type=int, default=0, metavar="N",
+                    help="with --no-render: afterwards render only the N lowest-scoring cases, "
+                         "each next to its source, on sheet_worst.png")
+    ap.add_argument("--worst-min-side", type=int, default=0, metavar="PX",
+                    help="only consider targets whose short side is at least PX for --render-worst")
     ap.add_argument("--scramble", action="store_true")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--workers", type=int, default=min(8, os.cpu_count() or 2))
@@ -204,6 +213,22 @@ def main(argv: Optional[list[str]] = None) -> int:
         for stem in tasks:
             contact_sheet(stem, sources.get(stem), [r for r in rows if r["task"] == stem],
                           out_dir / f"sheet_{stem}.png")
+    elif args.render_worst:
+        by_name = {f.name: f for f in CATALOGUE}
+        pool_rows = [r for r in rows if min(r["width"], r["height"]) >= args.worst_min_side]
+        worst = sorted(pool_rows, key=lambda r: r["total"])[:args.render_worst]
+        with ProcessPoolExecutor(max_workers=args.workers) as pool:
+            futs = [pool.submit(run_case, args.engine, tasks[r["task"]], r["task"],
+                                by_name.get(r["format"]), str(out_dir), True) for r in worst]
+            src_futs = {stem: pool.submit(render_source, tasks[stem], stem, str(out_dir))
+                        for stem in {r["task"] for r in worst}}
+            rendered = [f.result() for f in futs]
+            srcs = {stem: f.result() for stem, f in src_futs.items()}
+        cells = []
+        for r in rendered:
+            cells.append((f"{r['task']} source", None, srcs[r["task"]]))
+            cells.append((r["format"], r, r.get("png")))
+        draw_cells(f"worst {len(rendered)}", cells, out_dir / "sheet_worst.png")
 
     keys = ["task", "format", "width", "height", "template", "total", "passed", *WEIGHTS, "engine_s", "hard", "notes", "png"]
     with open(out_dir / "results.csv", "w", newline="") as fh:

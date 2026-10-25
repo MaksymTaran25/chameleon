@@ -1,0 +1,54 @@
+{
+  "task_id": "corpus_024",
+  "difficulty": "synthetic",
+  "notes": "base level1_warmup; dropped cta; missing asset on logo",
+  "source": {
+    "canvas": {
+      "width": 1080,
+      "height": 1080
+    },
+    "elements": [
+      {
+        "id": "ez4520a",
+        "type": "image",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1080,
+        "z_index": 0,
+        "asset_id": "solstice_bg_gradient.png",
+        "fit": "cover"
+      },
+      {
+        "id": "efhuaer",
+        "type": "image",
+        "x": 380,
+        "y": 60,
+        "width": 320,
+        "height": 100,
+        "z_index": 2,
+        "asset_id": "missing_nmdvhx.png",
+        "fit": "contain"
+      },
+      {
+        "id": "eblhgl5",
+        "type": "text",
+        "x": 140,
+        "y": 420,
+        "width": 800,
+        "height": 160,
+        "z_index": 2,
+        "content": "Chase the Light",
+        "font_family": "Solstice Serif",
+        "font_size": 60,
+        "font_weight": "bold",
+        "color": "rgba(255,255,255,1)",
+        "text_align": "center"
+      }
+    ]
+  },
+  "target_canvas": {
+    "width": 1200,
+    "height": 627
+  }
+}
