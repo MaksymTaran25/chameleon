@@ -90,6 +90,8 @@ def run_case(engine_spec: str, task: dict[str, Any], stem: str, fmt: Optional[Fo
         t0 = time.time()
         output = _load_engine(engine_spec)(task["source"], target)
         row["engine_s"] = round(time.time() - t0, 3)
+        report = getattr(sys.modules.get("engine.chameleon.select"), "LAST_REPORT", {})
+        row["template"] = report.get("chosen", "")
         (case_dir / f"{slug}.json").write_text(json.dumps(output, indent=2))
         s = score(task["source"], output, target)
         row.update(total=round(s.total, 4), passed=s.passed, hard="; ".join(s.hard),
@@ -141,7 +143,8 @@ def contact_sheet(stem: str, source_png: Optional[str], rows: list[dict[str, Any
             continue
         draw.text((x + 6, y + CELL + 20), f'{row["width"]}x{row["height"]}', fill=(90, 90, 90), font=small)
         if row.get("passed"):
-            draw.text((x + 6, y + CELL + 36), f'score {row["total"]:.2f}', fill=(20, 110, 60), font=small)
+            draw.text((x + 6, y + CELL + 36), f'score {row["total"]:.2f}  {row.get("template", "")}',
+                      fill=(20, 110, 60), font=small)
         else:
             reason = (row.get("hard") or "").split(";")[0][:38]
             draw.text((x + 6, y + CELL + 36), f"FAIL {reason}", fill=(180, 30, 30), font=small)
@@ -202,7 +205,7 @@ def main(argv: Optional[list[str]] = None) -> int:
             contact_sheet(stem, sources.get(stem), [r for r in rows if r["task"] == stem],
                           out_dir / f"sheet_{stem}.png")
 
-    keys = ["task", "format", "width", "height", "total", "passed", *WEIGHTS, "engine_s", "hard", "notes", "png"]
+    keys = ["task", "format", "width", "height", "template", "total", "passed", *WEIGHTS, "engine_s", "hard", "notes", "png"]
     with open(out_dir / "results.csv", "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=keys, extrasaction="ignore")
         w.writeheader()

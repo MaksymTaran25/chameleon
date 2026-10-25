@@ -215,7 +215,9 @@ def soft_score(source: Design, out: Design, roles_src: Optional[dict[str, RoleIn
         floor, frac = TYPE_FLOORS[role]
         desired = max(floor, frac * short)
         size = int(el["font_size"])
-        r = 0.0 if size < floor else min(1.0, size / desired)
+        # Below the floor it is still worse to be 2px than 7px, so grade it
+        # rather than flatten everything to zero.
+        r = 0.5 * (size / floor) ** 2 if size < floor else min(1.0, size / desired)
         w = max(info.importance, 0.1)
         read_num += w * r
         read_den += w
