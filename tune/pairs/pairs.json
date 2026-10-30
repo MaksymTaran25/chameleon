@@ -2,7 +2,7 @@
   {
     "idx": 0,
     "task": "corpus_008",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_008.json",
+    "task_path": "corpus/corpus_008.json",
     "format": "Mobile Banner",
     "left": {
       "name": "strip/headline/badges-tuck/hero-right",
@@ -17,7 +17,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair000_L.png"
+      "png": "tune/pairs/pair000_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -32,13 +32,13 @@
         "alignment": 1.0,
         "text_fit": 0.7033155513492096
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair000_R.png"
+      "png": "tune/pairs/pair000_R.png"
     }
   },
   {
     "idx": 1,
     "task": "chameleon_sample_level1_warmup",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/input/chameleon_sample_level1_warmup.json",
+    "task_path": "input/chameleon_sample_level1_warmup.json",
     "format": "Instagram Story",
     "left": {
       "name": "letterbox",
@@ -53,7 +53,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair001_L.png"
+      "png": "tune/pairs/pair001_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -68,13 +68,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair001_R.png"
+      "png": "tune/pairs/pair001_R.png"
     }
   },
   {
     "idx": 2,
     "task": "corpus_031",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_031.json",
+    "task_path": "corpus/corpus_031.json",
     "format": "A4 Poster",
     "left": {
       "name": "letterbox",
@@ -89,7 +89,7 @@
         "alignment": 0.8333333333333334,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair002_L.png"
+      "png": "tune/pairs/pair002_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -104,13 +104,13 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair002_R.png"
+      "png": "tune/pairs/pair002_R.png"
     }
   },
   {
     "idx": 3,
     "task": "corpus_041",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_041.json",
+    "task_path": "corpus/corpus_041.json",
     "format": "Presentation 16x9",
     "left": {
       "name": "split/left/0.5/left",
@@ -125,7 +125,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair003_L.png"
+      "png": "tune/pairs/pair003_L.png"
     },
     "right": {
       "name": "stack/compact",
@@ -140,13 +140,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair003_R.png"
+      "png": "tune/pairs/pair003_R.png"
     }
   },
   {
     "idx": 4,
     "task": "corpus_006",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_006.json",
+    "task_path": "corpus/corpus_006.json",
     "format": "Leaderboard",
     "left": {
       "name": "split/left/0.3/center",
@@ -161,7 +161,7 @@
         "alignment": 0.8333333333333334,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair004_L.png"
+      "png": "tune/pairs/pair004_L.png"
     },
     "right": {
       "name": "strip/headline+subhead/badges-tuck/hero-right",
@@ -176,13 +176,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair004_R.png"
+      "png": "tune/pairs/pair004_R.png"
     }
   },
   {
     "idx": 5,
     "task": "corpus_024",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_024.json",
+    "task_path": "corpus/corpus_024.json",
     "format": "Website Banner",
     "left": {
       "name": "letterbox",
@@ -197,7 +197,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair005_L.png"
+      "png": "tune/pairs/pair005_L.png"
     },
     "right": {
       "name": "strip/headline/badges-tuck/hero-left",
@@ -212,13 +212,13 @@
         "alignment": 0.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair005_R.png"
+      "png": "tune/pairs/pair005_R.png"
     }
   },
   {
     "idx": 6,
     "task": "chameleon_sample_level2_core",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/input/chameleon_sample_level2_core.json",
+    "task_path": "input/chameleon_sample_level2_core.json",
     "format": "Instagram Post",
     "left": {
       "name": "stack/compact",
@@ -233,7 +233,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair006_L.png"
+      "png": "tune/pairs/pair006_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -248,13 +248,13 @@
         "alignment": 0.8333333333333334,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair006_R.png"
+      "png": "tune/pairs/pair006_R.png"
     }
   },
   {
     "idx": 7,
     "task": "corpus_017",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_017.json",
+    "task_path": "corpus/corpus_017.json",
     "format": "Wide Skyscraper",
     "left": {
       "name": "stack/proportional",
@@ -269,7 +269,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair007_L.png"
+      "png": "tune/pairs/pair007_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -284,13 +284,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair007_R.png"
+      "png": "tune/pairs/pair007_R.png"
     }
   },
   {
     "idx": 8,
     "task": "corpus_037",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_037.json",
+    "task_path": "corpus/corpus_037.json",
     "format": "Facebook Post",
     "left": {
       "name": "stack/compact",
@@ -305,7 +305,7 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair008_L.png"
+      "png": "tune/pairs/pair008_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -320,13 +320,13 @@
         "alignment": 0.6666666666666666,
         "text_fit": 0.625
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair008_R.png"
+      "png": "tune/pairs/pair008_R.png"
     }
   },
   {
     "idx": 9,
     "task": "corpus_001",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_001.json",
+    "task_path": "corpus/corpus_001.json",
     "format": "Instagram Post",
     "left": {
       "name": "letterbox",
@@ -341,7 +341,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair009_L.png"
+      "png": "tune/pairs/pair009_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -356,13 +356,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair009_R.png"
+      "png": "tune/pairs/pair009_R.png"
     }
   },
   {
     "idx": 10,
     "task": "corpus_034",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_034.json",
+    "task_path": "corpus/corpus_034.json",
     "format": "Instagram Post",
     "left": {
       "name": "stack/compact",
@@ -377,7 +377,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair010_L.png"
+      "png": "tune/pairs/pair010_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -392,13 +392,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair010_R.png"
+      "png": "tune/pairs/pair010_R.png"
     }
   },
   {
     "idx": 11,
     "task": "corpus_024",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_024.json",
+    "task_path": "corpus/corpus_024.json",
     "format": "Large Rectangle",
     "left": {
       "name": "stack/compact",
@@ -413,7 +413,7 @@
         "alignment": 0.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair011_L.png"
+      "png": "tune/pairs/pair011_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -428,13 +428,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair011_R.png"
+      "png": "tune/pairs/pair011_R.png"
     }
   },
   {
     "idx": 12,
     "task": "corpus_027",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_027.json",
+    "task_path": "corpus/corpus_027.json",
     "format": "Wide Skyscraper",
     "left": {
       "name": "letterbox",
@@ -449,7 +449,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair012_L.png"
+      "png": "tune/pairs/pair012_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -464,13 +464,13 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair012_R.png"
+      "png": "tune/pairs/pair012_R.png"
     }
   },
   {
     "idx": 13,
     "task": "corpus_014",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_014.json",
+    "task_path": "corpus/corpus_014.json",
     "format": "A4 Poster",
     "left": {
       "name": "letterbox",
@@ -485,7 +485,7 @@
         "alignment": 1.0,
         "text_fit": 0.625
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair013_L.png"
+      "png": "tune/pairs/pair013_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -500,13 +500,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair013_R.png"
+      "png": "tune/pairs/pair013_R.png"
     }
   },
   {
     "idx": 14,
     "task": "corpus_031",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_031.json",
+    "task_path": "corpus/corpus_031.json",
     "format": "Banner",
     "left": {
       "name": "letterbox",
@@ -521,7 +521,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair014_L.png"
+      "png": "tune/pairs/pair014_L.png"
     },
     "right": {
       "name": "strip/headline/badges-tuck/hero-left",
@@ -536,13 +536,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair014_R.png"
+      "png": "tune/pairs/pair014_R.png"
     }
   },
   {
     "idx": 15,
     "task": "corpus_014",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_014.json",
+    "task_path": "corpus/corpus_014.json",
     "format": "Large Rectangle",
     "left": {
       "name": "letterbox",
@@ -557,7 +557,7 @@
         "alignment": 1.0,
         "text_fit": 0.625
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair015_L.png"
+      "png": "tune/pairs/pair015_L.png"
     },
     "right": {
       "name": "stack/compact",
@@ -572,13 +572,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair015_R.png"
+      "png": "tune/pairs/pair015_R.png"
     }
   },
   {
     "idx": 16,
     "task": "corpus_029",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_029.json",
+    "task_path": "corpus/corpus_029.json",
     "format": "YouTube Thumbnail",
     "left": {
       "name": "letterbox",
@@ -593,7 +593,7 @@
         "alignment": 0.8,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair016_L.png"
+      "png": "tune/pairs/pair016_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -608,13 +608,13 @@
         "alignment": 0.6,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair016_R.png"
+      "png": "tune/pairs/pair016_R.png"
     }
   },
   {
     "idx": 17,
     "task": "corpus_026",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_026.json",
+    "task_path": "corpus/corpus_026.json",
     "format": "Banner",
     "left": {
       "name": "stack/proportional",
@@ -629,7 +629,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair017_L.png"
+      "png": "tune/pairs/pair017_L.png"
     },
     "right": {
       "name": "strip/headline/badges-tuck/hero-left",
@@ -644,13 +644,13 @@
         "alignment": 0.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair017_R.png"
+      "png": "tune/pairs/pair017_R.png"
     }
   },
   {
     "idx": 18,
     "task": "corpus_006",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_006.json",
+    "task_path": "corpus/corpus_006.json",
     "format": "X Post",
     "left": {
       "name": "stack/compact",
@@ -665,7 +665,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair018_L.png"
+      "png": "tune/pairs/pair018_L.png"
     },
     "right": {
       "name": "split/left/0.5/left",
@@ -680,13 +680,13 @@
         "alignment": 0.8333333333333334,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair018_R.png"
+      "png": "tune/pairs/pair018_R.png"
     }
   },
   {
     "idx": 19,
     "task": "corpus_046",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_046.json",
+    "task_path": "corpus/corpus_046.json",
     "format": "YouTube Thumbnail",
     "left": {
       "name": "stack/compact",
@@ -701,7 +701,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair019_L.png"
+      "png": "tune/pairs/pair019_L.png"
     },
     "right": {
       "name": "split/right/0.4/center",
@@ -716,13 +716,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair019_R.png"
+      "png": "tune/pairs/pair019_R.png"
     }
   },
   {
     "idx": 20,
     "task": "corpus_021",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_021.json",
+    "task_path": "corpus/corpus_021.json",
     "format": "Wide Skyscraper",
     "left": {
       "name": "stack/compact",
@@ -737,7 +737,7 @@
         "alignment": 0.9,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair020_L.png"
+      "png": "tune/pairs/pair020_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -752,13 +752,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair020_R.png"
+      "png": "tune/pairs/pair020_R.png"
     }
   },
   {
     "idx": 21,
     "task": "corpus_032",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_032.json",
+    "task_path": "corpus/corpus_032.json",
     "format": "Website Banner",
     "left": {
       "name": "stack/compact",
@@ -773,7 +773,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair021_L.png"
+      "png": "tune/pairs/pair021_L.png"
     },
     "right": {
       "name": "strip/headline+subhead/badges-tuck/hero-left",
@@ -788,13 +788,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair021_R.png"
+      "png": "tune/pairs/pair021_R.png"
     }
   },
   {
     "idx": 22,
     "task": "corpus_042",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_042.json",
+    "task_path": "corpus/corpus_042.json",
     "format": "X Header",
     "left": {
       "name": "split/right/0.3/center",
@@ -809,7 +809,7 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair022_L.png"
+      "png": "tune/pairs/pair022_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -824,13 +824,13 @@
         "alignment": 0.8333333333333334,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair022_R.png"
+      "png": "tune/pairs/pair022_R.png"
     }
   },
   {
     "idx": 23,
     "task": "corpus_037",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_037.json",
+    "task_path": "corpus/corpus_037.json",
     "format": "Leaderboard",
     "left": {
       "name": "stack/proportional",
@@ -845,7 +845,7 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair023_L.png"
+      "png": "tune/pairs/pair023_L.png"
     },
     "right": {
       "name": "strip/headline+subhead/badges-tuck/hero-left",
@@ -860,13 +860,13 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair023_R.png"
+      "png": "tune/pairs/pair023_R.png"
     }
   },
   {
     "idx": 24,
     "task": "corpus_032",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_032.json",
+    "task_path": "corpus/corpus_032.json",
     "format": "Presentation 16x9",
     "left": {
       "name": "stack/proportional",
@@ -881,7 +881,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair024_L.png"
+      "png": "tune/pairs/pair024_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -896,13 +896,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair024_R.png"
+      "png": "tune/pairs/pair024_R.png"
     }
   },
   {
     "idx": 25,
     "task": "corpus_002",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_002.json",
+    "task_path": "corpus/corpus_002.json",
     "format": "Leaderboard",
     "left": {
       "name": "strip/headline/badges-tuck/hero-left",
@@ -917,7 +917,7 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair025_L.png"
+      "png": "tune/pairs/pair025_L.png"
     },
     "right": {
       "name": "stack/compact",
@@ -932,13 +932,13 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair025_R.png"
+      "png": "tune/pairs/pair025_R.png"
     }
   },
   {
     "idx": 26,
     "task": "corpus_025",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_025.json",
+    "task_path": "corpus/corpus_025.json",
     "format": "Website Banner",
     "left": {
       "name": "stack/compact",
@@ -953,7 +953,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair026_L.png"
+      "png": "tune/pairs/pair026_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -968,13 +968,13 @@
         "alignment": 1.0,
         "text_fit": 0.8
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair026_R.png"
+      "png": "tune/pairs/pair026_R.png"
     }
   },
   {
     "idx": 27,
     "task": "corpus_023",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_023.json",
+    "task_path": "corpus/corpus_023.json",
     "format": "Banner",
     "left": {
       "name": "strip/headline/badges-tuck/hero-left",
@@ -989,7 +989,7 @@
         "alignment": 0.9,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair027_L.png"
+      "png": "tune/pairs/pair027_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -1004,13 +1004,13 @@
         "alignment": 0.9,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair027_R.png"
+      "png": "tune/pairs/pair027_R.png"
     }
   },
   {
     "idx": 28,
     "task": "chameleon_sample_level2_core",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/input/chameleon_sample_level2_core.json",
+    "task_path": "input/chameleon_sample_level2_core.json",
     "format": "Large Rectangle",
     "left": {
       "name": "stack/compact",
@@ -1025,7 +1025,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair028_L.png"
+      "png": "tune/pairs/pair028_L.png"
     },
     "right": {
       "name": "split/right/0.5/left",
@@ -1040,13 +1040,13 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair028_R.png"
+      "png": "tune/pairs/pair028_R.png"
     }
   },
   {
     "idx": 29,
     "task": "corpus_005",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_005.json",
+    "task_path": "corpus/corpus_005.json",
     "format": "Email Header",
     "left": {
       "name": "stack/proportional",
@@ -1061,7 +1061,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair029_L.png"
+      "png": "tune/pairs/pair029_L.png"
     },
     "right": {
       "name": "strip/headline+subhead+badge/badges-tuck/hero-left",
@@ -1076,13 +1076,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair029_R.png"
+      "png": "tune/pairs/pair029_R.png"
     }
   },
   {
     "idx": 30,
     "task": "corpus_006",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_006.json",
+    "task_path": "corpus/corpus_006.json",
     "format": "A4 Poster",
     "left": {
       "name": "letterbox",
@@ -1097,7 +1097,7 @@
         "alignment": 1.0,
         "text_fit": 0.7966101694915254
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair030_L.png"
+      "png": "tune/pairs/pair030_L.png"
     },
     "right": {
       "name": "stack/compact",
@@ -1112,13 +1112,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair030_R.png"
+      "png": "tune/pairs/pair030_R.png"
     }
   },
   {
     "idx": 31,
     "task": "corpus_025",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_025.json",
+    "task_path": "corpus/corpus_025.json",
     "format": "Pinterest Pin",
     "left": {
       "name": "letterbox",
@@ -1133,7 +1133,7 @@
         "alignment": 1.0,
         "text_fit": 0.8
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair031_L.png"
+      "png": "tune/pairs/pair031_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -1148,13 +1148,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair031_R.png"
+      "png": "tune/pairs/pair031_R.png"
     }
   },
   {
     "idx": 32,
     "task": "corpus_001",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_001.json",
+    "task_path": "corpus/corpus_001.json",
     "format": "Leaderboard",
     "left": {
       "name": "strip/headline/badges-tuck/hero-left",
@@ -1169,7 +1169,7 @@
         "alignment": 0.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair032_L.png"
+      "png": "tune/pairs/pair032_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -1184,13 +1184,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair032_R.png"
+      "png": "tune/pairs/pair032_R.png"
     }
   },
   {
     "idx": 33,
     "task": "corpus_045",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_045.json",
+    "task_path": "corpus/corpus_045.json",
     "format": "Large Mobile Banner",
     "left": {
       "name": "strip/headline/badges-tuck/hero-right",
@@ -1205,7 +1205,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair033_L.png"
+      "png": "tune/pairs/pair033_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -1220,13 +1220,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair033_R.png"
+      "png": "tune/pairs/pair033_R.png"
     }
   },
   {
     "idx": 34,
     "task": "corpus_025",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_025.json",
+    "task_path": "corpus/corpus_025.json",
     "format": "Medium Rectangle",
     "left": {
       "name": "letterbox",
@@ -1241,7 +1241,7 @@
         "alignment": 1.0,
         "text_fit": 0.8
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair034_L.png"
+      "png": "tune/pairs/pair034_L.png"
     },
     "right": {
       "name": "stack/proportional",
@@ -1256,13 +1256,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair034_R.png"
+      "png": "tune/pairs/pair034_R.png"
     }
   },
   {
     "idx": 35,
     "task": "corpus_032",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_032.json",
+    "task_path": "corpus/corpus_032.json",
     "format": "LinkedIn Post",
     "left": {
       "name": "stack/proportional",
@@ -1277,7 +1277,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair035_L.png"
+      "png": "tune/pairs/pair035_L.png"
     },
     "right": {
       "name": "letterbox",
@@ -1292,13 +1292,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair035_R.png"
+      "png": "tune/pairs/pair035_R.png"
     }
   },
   {
     "idx": 36,
     "task": "chameleon_sample_level2_core",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/input/chameleon_sample_level2_core.json",
+    "task_path": "input/chameleon_sample_level2_core.json",
     "format": "X Header",
     "left": {
       "name": "split/left/0.4/left",
@@ -1313,7 +1313,7 @@
         "alignment": 0.8333333333333334,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair036_L.png"
+      "png": "tune/pairs/pair036_L.png"
     },
     "right": {
       "name": "stack/compact",
@@ -1328,13 +1328,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair036_R.png"
+      "png": "tune/pairs/pair036_R.png"
     }
   },
   {
     "idx": 37,
     "task": "corpus_035",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_035.json",
+    "task_path": "corpus/corpus_035.json",
     "format": "LinkedIn Post",
     "left": {
       "name": "letterbox",
@@ -1349,7 +1349,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair037_L.png"
+      "png": "tune/pairs/pair037_L.png"
     },
     "right": {
       "name": "split/right/0.4/left",
@@ -1364,13 +1364,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair037_R.png"
+      "png": "tune/pairs/pair037_R.png"
     }
   },
   {
     "idx": 38,
     "task": "corpus_022",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_022.json",
+    "task_path": "corpus/corpus_022.json",
     "format": "Mobile Banner",
     "left": {
       "name": "letterbox",
@@ -1385,7 +1385,7 @@
         "alignment": 1.0,
         "text_fit": 0.44732621256510424
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair038_L.png"
+      "png": "tune/pairs/pair038_L.png"
     },
     "right": {
       "name": "strip/headline/badges-tuck/hero-right",
@@ -1400,13 +1400,13 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair038_R.png"
+      "png": "tune/pairs/pair038_R.png"
     }
   },
   {
     "idx": 39,
     "task": "corpus_017",
-    "task_path": "/Users/maksym/Desktop/Claude/Gestures/chameleon/corpus/corpus_017.json",
+    "task_path": "corpus/corpus_017.json",
     "format": "Large Rectangle",
     "left": {
       "name": "stack/proportional",
@@ -1421,7 +1421,7 @@
         "alignment": 1.0,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair039_L.png"
+      "png": "tune/pairs/pair039_L.png"
     },
     "right": {
       "name": "split/right/0.5/left",
@@ -1436,7 +1436,7 @@
         "alignment": 0.6666666666666666,
         "text_fit": 1.0
       },
-      "png": "/Users/maksym/Desktop/Claude/Gestures/chameleon/tune/pairs/pair039_R.png"
+      "png": "tune/pairs/pair039_R.png"
     }
   }
 ]

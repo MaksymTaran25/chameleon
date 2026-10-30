@@ -26,6 +26,13 @@ from engine.chameleon.paths import REPO_ROOT, assets_dir, fonts_dir
 PANEL_W, PANEL_H, LABEL = 440, 300, 26
 
 
+def _rel(path: str) -> str:
+    try:
+        return str(Path(path).resolve().relative_to(REPO_ROOT))
+    except ValueError:
+        return path
+
+
 def make_pair(task_path: str, fmt_name: str, idx: int, out_dir: str, flip: bool) -> dict[str, Any]:
     from renderer.converter.convert import render_design_to_png
 
@@ -63,9 +70,10 @@ def make_pair(task_path: str, fmt_name: str, idx: int, out_dir: str, flip: bool)
         render_design_to_png(c[2], assets_dir(), png, fonts_dir=fonts_dir(), max_size=900)
         # keep the layout itself so the weights can be refit against a newer scorer
         (out / f"pair{idx:03d}_{side}.json").write_text(json.dumps(c[2]))
-        pngs.append(str(png))
+        pngs.append(_rel(str(png)))
     return {
-        "idx": idx, "task": Path(task_path).stem, "task_path": task_path, "format": fmt_name,
+        # paths are stored relative to the repo so pairs.json works from any clone
+        "idx": idx, "task": Path(task_path).stem, "task_path": _rel(task_path), "format": fmt_name,
         "left": {"name": left[1], "total": left[0], "parts": left[3], "png": pngs[0]},
         "right": {"name": right[1], "total": right[0], "parts": right[3], "png": pngs[1]},
     }
@@ -80,7 +88,7 @@ def montage(pairs: list[dict], path: Path) -> None:
         for col, side in enumerate(("left", "right")):
             x = 10 + col * (PANEL_W + 10)
             draw.rectangle([x, y + LABEL, x + PANEL_W, y + LABEL + PANEL_H], fill=(215, 211, 204))
-            im = Image.open(p[side]["png"]).convert("RGB")
+            im = Image.open(REPO_ROOT / p[side]["png"]).convert("RGB")
             im.thumbnail((PANEL_W, PANEL_H))
             sheet.paste(im, (x + (PANEL_W - im.width) // 2, y + LABEL + (PANEL_H - im.height) // 2))
             draw.text((x + 4, y + LABEL + 4), "L" if col == 0 else "R", fill=(255, 255, 0))

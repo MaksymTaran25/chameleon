@@ -34,7 +34,7 @@ def load(pairs_dir: Path, labels_path: Path) -> tuple[list[str], np.ndarray, np.
         lab = labels.get(str(p["idx"]))
         if lab not in ("L", "R"):
             continue
-        task = json.loads(Path(p["task_path"]).read_text())
+        task = json.loads((REPO_ROOT / p["task_path"]).read_text())
         parts = []
         for side in ("L", "R"):
             doc = json.loads((pairs_dir / f"pair{p['idx']:03d}_{side}.json").read_text())
