@@ -126,6 +126,34 @@ fitted weights agree with 37 of 40 leave-one-out.
 The engine takes about 0.17 s per resize on average, 1 s at most, natively on
 an M-series Mac.
 
+## Assumptions where the rules are open
+
+We asked the organizers about the rules below and had no answer by submission.
+Where the rules leave room, the engine takes the strictest reading, so none of
+these choices can disqualify it. At worst, a looser rule would have let it
+score a little higher.
+
+- **Every element stays visible.** No element is hidden with `opacity: 0` or
+  shrunk to nothing. When a small canvas cannot hold everything readably, the
+  least important elements (badges, fine print, stickers) shrink and are
+  placed in free space, clear of everything else.
+- **Nothing leaves the canvas.** Both the raw box and the box after rotation
+  stay inside it. Decorations that bled off the edge of the source are pulled
+  inside.
+- **Overlaps are judged on visible pixels.** The transparent padding around
+  an asset may overlap a neighbour's padding. What the viewer sees does not
+  collide unless the source already layered it that way.
+- **Content and type are fixed.** Text, font family, weight, style and colour
+  are never changed. Only geometry, `font_size`, and `text_align` (when a
+  layout moves text into a left-aligned column) are.
+- **No model.** The approved-model list was not published, and the engine
+  does not need one. It is deterministic and fast.
+- **Brand kit as fixed material.** The logo's file name is used only as a
+  tiebreak in role detection. The `--scramble` sweep shows the results are
+  identical with every id and asset name randomised.
+- **Missing assets are kept.** The element stays in the output, rendered as
+  the renderer's placeholder, placed small in a free spot.
+
 ## Known limits
 
 - **Small, crowded targets.** L3 at 300x250 or 320x50 cannot hold every
