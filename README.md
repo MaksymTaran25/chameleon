@@ -55,10 +55,24 @@ Reads every task in `input/` and writes `<task>_output.json` and
 
 All dependencies install at build time; nothing is fetched at run time.
 
+## Testing
+
+Checked with the tools in `tools/`, run inside the Docker image with
+`--network none`:
+
+- 3 samples x 27 formats (26 real platform sizes + each task's own target):
+  81/81 pass the hard gates.
+- 48 corpus designs (mutated samples) x 27 formats: 1296/1296 pass.
+- Scramble test (every id and asset name randomised): same results, 81/81.
+
 ## Known limit
 
 On very small, crowded targets (e.g. 728x90 with 17 elements), low-priority
 text such as badges and fine print can shrink below a readable size.
+
+Text measures slightly differently on macOS than in the Linux Docker image,
+so crowded layouts can come out a little differently between the two. The
+Docker output is the one that counts.
 
 ## Assumptions where the rules are open
 
