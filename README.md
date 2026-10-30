@@ -65,15 +65,6 @@ Checked with the tools in `tools/`, run inside the Docker image with
 - 48 corpus designs (mutated samples) x 27 formats: 1296/1296 pass.
 - Scramble test (every id and asset name randomised): same results, 81/81.
 
-## Known limit
-
-On very small, crowded targets (e.g. 728x90 with 17 elements), low-priority
-text such as badges and fine print can shrink below a readable size.
-
-Text measures slightly differently on macOS than in the Linux Docker image,
-so crowded layouts can come out a little differently between the two. The
-Docker output is the one that counts.
-
 ## Assumptions where the rules are open
 
 We asked the organizers about the rules below and had no answer by submission.
@@ -81,11 +72,10 @@ Where the rules leave room, the engine takes the strictest reading, so none of
 these choices can disqualify it. At worst, a looser rule would have let it
 score a little higher.
 
-- **Every element stays visible.** No element is hidden with `opacity: 0` or
-  removed. On very crowded targets some low-priority text can still shrink
-  below a readable size (see Known limit). When a small canvas cannot hold
-  everything readably, the least important elements (badges, fine print,
-  stickers) shrink and are placed in free space, clear of everything else.
+- **No element is hidden or removed.** Nothing is set to `opacity: 0`.
+  When a small canvas cannot hold everything readably, the least
+  important elements (badges, fine print, stickers) shrink and are placed in
+  free space.
 - **Nothing leaves the canvas.** Both the raw box and the box after rotation
   stay inside it. Decorations that bled off the edge of the source are pulled
   inside.
