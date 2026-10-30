@@ -65,12 +65,7 @@ Checked with the tools in `tools/`, run inside the Docker image with
 - 48 corpus designs (mutated samples) x 27 formats: 1296/1296 pass.
 - Scramble test (every id and asset name randomised): same results, 81/81.
 
-## Assumptions where the rules are open
-
-We asked the organizers about the rules below and had no answer by submission.
-Where the rules leave room, the engine takes the strictest reading, so none of
-these choices can disqualify it. At worst, a looser rule would have let it
-score a little higher.
+## Design choices
 
 - **No element is hidden or removed.** Nothing is set to `opacity: 0`.
   When a small canvas cannot hold everything readably, the least
